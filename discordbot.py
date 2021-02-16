@@ -21,8 +21,8 @@ async def on_ready():
 """コマンド実行"""
 # test用
 @bot.command()
-async def hello(ctx):
-    await ctx.send('bye')
+async def ping(ctx):
+    await ctx.send('pong')
     
 # メンバー数が均等になるチーム分け
 @bot.command()
